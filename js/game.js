@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     //card options
     const cardArray = [{
             name: 'clown-fish',
@@ -150,9 +151,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (optionOneId == optionTwoId) {
             cards[optionOneId].setAttribute('src', 'images/blank.png')
             cards[optionTwoId].setAttribute('src', 'images/blank.png')
-            alert('You have clicked the same image!')
+
         } else if (cardsChosen[0] === cardsChosen[1]) {
-            alert('You found a match')
+
             cards[optionOneId].setAttribute('src', 'images/white.png')
             cards[optionTwoId].setAttribute('src', 'images/white.png')
             cards[optionOneId].removeEventListener('click', flipCard)
@@ -167,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length / 2) {
-            resultDisplay.textContent = 'Congratulations! You found them all!'
+            resultDisplay.textContent = ' Congratulations! You found them all!'
         }
     }
 
@@ -183,4 +184,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     createBoard()
+
+    function togglePopup() {
+        document.getElementById("popup-1").classList.toggle("active");
+    }
 })
