@@ -4,22 +4,27 @@
   <meta charset="UTF-8">
   <title>Memory Game</title>
   <link rel="stylesheet" href="/css/style.css"></link>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="/js/game.js" charset="utf-8"></script>
 </head>
 <body>
 <div class="game-score">
   <h3>Score:<span id="result"></span></h3>
 
-  <div class="popup" id="popup-1">
-  <div class="overlay"></div>
-  <div class="content">
-    <div class="close-btn" onclick="togglePopup()">&times;</div>
-    <h2>title</h2>
-    <p> bla bla bla</p>
+  <!-- Trigger/Open The Modal -->
+<button id="myBtn">How To Play!</button>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
   </div>
 </div>
-<button onclick="togglePopup()">How To Play!</button>
 </div>
 
   <div class="grid">
