@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Memory Game</title>
-  <link rel="stylesheet" href="/css/style.css"></link>
+  <link rel="stylesheet" href="/css/style.css">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="/js/game.js" charset="utf-8"></script>
+ <!-- <script src="/js/easyCardArray.js"></script>-->
+  <script src="/js/game.js"></script>
+  
 </head>
 <body>
 <div class="game-score">
   <h3>Score:<span id="result"></span></h3>
+  
 
   <!-- Trigger/Open The Modal -->
 <button id="myBtn">How To Play!</button>
@@ -24,12 +25,17 @@
     <span class="close">&times;</span>
     <p>Some text in the Modal..</p>
   </div>
+ </div>
+
+<button id="easy" style=background-color:green>Easy</button>
+<button id="medium" style=background-color:yellow>Medium</button>
+<button id="hard" style=background-color:red>Hard</button>
 </div>
-</div>
+
+
 
   <div class="grid">
   </div>
 
 </body>
 </html>
-
