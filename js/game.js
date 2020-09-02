@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
     ];
 
-  /*  const mediumcards = [{
+    const mediumcards = [{
             name: 'clown-fish',
             img: 'images/clown-fish.png'
         },
@@ -292,33 +292,30 @@ document.addEventListener("DOMContentLoaded", () => {
             name: 'manatee',
             img: 'images/manatee.png'
         },
-    ];*/
+    ];
 
     const gameDifficulty = {
         easy: easycards,
-       /* medium: mediumcards,
-        hard: hardcards,*/
+        medium: mediumcards,
+        hard: hardcards,
     };
 
-    function setDifficulty(e) {
+        function setDifficulty(e) {
         difficultyLevel = e.target.id;
         createBoard();
     }
 
+    
     let difficultyLevel = "easy";
     let cardArray = gameDifficulty[difficultyLevel];
     const easyButton = document.querySelector("#easy");
-    easyButton.addEventListener("click", setDifficulty);
-
-    /*let difficultyLevel = "medium";
-    let cardArray = gameDifficulty[difficultyLevel];
     const mediumButton = document.querySelector("#medium");
-    mediumButton.addEventListener("click", setDifficulty);
-
-    let difficultyLevel = "hard";
-    let cardArray = gameDifficulty[difficultyLevel];
     const hardButton = document.querySelector("#hard");
-    hardButton.addEventListener("click", setDifficulty);*/
+    easyButton.addEventListener("click", setDifficulty);
+    mediumButton.addEventListener("click", setDifficulty);
+    hardButton.addEventListener("click", setDifficulty);
+
+
 
     cardArray.sort(() => 0.5 - Math.random());
 
