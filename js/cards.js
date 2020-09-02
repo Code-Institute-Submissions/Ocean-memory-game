@@ -1,6 +1,6 @@
   //card options
  
-  const easyArray = [{
+  const easy = [{
     name: 'clown-fish',
     img: 'images/clown-fish.png'
 },

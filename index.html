@@ -5,17 +5,17 @@
   <title>Memory Game</title>
   <link rel="stylesheet" href="/css/style.css">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
- <!-- <script src="/js/easyCardArray.js"></script>-->
+ <script src="/js/cards.js"></script>
   <script src="/js/game.js"></script>
   
 </head>
 <body>
 <div class="game-score">
-  <h3>Score:<span id="result"></span></h3>
+  <h3>Matched Cards:<span id="result"></span></h3>
   
 
   <!-- Trigger/Open The Modal -->
-<button id="myBtn">How To Play!</button>
+<button id="myBtn" style=background-color:purple>How To Play!</button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -23,7 +23,11 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
+    <p>Welcome to The Ocean.<br>
+      The aim of this game is to test your memory by match all the cards until there are none left.
+      You can choose your level of difficulty by clicking on the Easy, Medium or Hard buttons.
+      Have Fun!
+    </p>
   </div>
  </div>
 
