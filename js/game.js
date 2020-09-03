@@ -293,7 +293,7 @@ document.addEventListener("DOMContentLoaded", () => {
             img: 'images/manatee.png'
         },
     ];
-
+    
     const gameDifficulty = {
         easy: easycards,
         medium: mediumcards,
@@ -302,6 +302,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         function setDifficulty(e) {
         difficultyLevel = e.target.id;
+        cardArray = gameDifficulty[difficultyLevel];
         createBoard();
     }
 
