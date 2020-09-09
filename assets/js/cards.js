@@ -1,293 +1,293 @@
 //card options
 const easycards = [{
     name: "clown-fish",
-    img: "../images/clown-fish.png",
+    img: "assets/images/clown-fish.png",
 },
 {
     name: "clown-fish",
-    img: "../images/clown-fish.png",
+    img: "assets/images/clown-fish.png",
 },
 {
     name: "coral",
-    img: "../images/coral.png",
+    img: "assets/images/coral.png",
 },
 {
     name: "coral",
-    img: "../images/coral.png",
+    img: "assets/images/coral.png",
 },
 {
     name: "dolphin",
-    img: "../images/dolphin.png",
+    img: "assets/images/dolphin.png",
 },
 {
     name: "dolphin",
-    img: "../images/dolphin.png",
+    img: "assets/images/dolphin.png",
 },
 {
     name: "shark",
-    img: "../images/shark.png",
+    img: "assets/images/shark.png",
 },
 {
     name: "shark",
-    img: "../images/shark.png",
+    img: "assets/images/shark.png",
 },
 {
     name: "stingrays",
-    img: "../images/stingrays.png",
+    img: "assets/images/stingrays.png",
 },
 {
     name: "stingrays",
-    img: "../images/stingrays.png",
+    img: "assets/images/stingrays.png",
 },
 {
     name: "turtle",
-    img: "../images/turtle.png",
+    img: "assets/images/turtle.png",
 },
 {
     name: "turtle",
-    img: "../images/turtle.png",
+    img: "assets/images/turtle.png",
 },
 {
     name: "lionfish",
-    img: "../images/lionfish.png",
+    img: "assets/images/lionfish.png",
 },
 {
     name: "lionfish",
-    img: "../images/lionfish.png",
+    img: "assets/images/lionfish.png",
 },
 {
     name: "seal",
-    img: "../images/seal.png",
+    img: "assets/images/seal.png",
 },
 {
     name: "seal",
-    img: "../images/seal.png",
+    img: "assets/images/seal.png",
 },
 {
     name: "starfish",
-    img: "../images/starfish.png",
+    img: "assets/images/starfish.png",
 },
 {
     name: "starfish",
-    img: "../images/starfish.png",
+    img: "assets/images/starfish.png",
 },
 ];
 
 const mediumcards = [{
     name: 'clown-fish',
-    img: '../images/clown-fish.png'
+    img: 'assets/images/clown-fish.png'
 },
 {
     name: 'clown-fish',
-    img: '../images/clown-fish.png'
+    img: 'assets/images/clown-fish.png'
 },
 {
     name: 'coral',
-    img: '../images/coral.png'
+    img: 'assets/images/coral.png'
 },
 {
     name: 'coral',
-    img: '../images/coral.png'
+    img: 'assets/images/coral.png'
 },
 {
     name: 'dolphin',
-    img: '../images/dolphin.png'
+    img: 'assets/images/dolphin.png'
 },
 {
     name: 'dolphin',
-    img: '../images/dolphin.png'
+    img: 'assets/images/dolphin.png'
 },
 {
     name: 'shark',
-    img: '../images/shark.png'
+    img: 'assets/images/shark.png'
 },
 {
     name: 'shark',
-    img: '../images/shark.png'
+    img: 'assets/images/shark.png'
 },
 {
     name: 'stingrays',
-    img: '../images/stingrays.png'
+    img: 'assets/images/stingrays.png'
 },
 {
     name: 'stingrays',
-    img: '../images/stingrays.png'
+    img: 'assets/images/stingrays.png'
 },
 {
     name: 'turtle',
-    img: '../images/turtle.png'
+    img: 'assets/images/turtle.png'
 },
 {
     name: 'turtle',
-    img: '../images/turtle.png'
+    img: 'assets/images/turtle.png'
 },
 {
     name: 'lionfish',
-    img: '../images/lionfish.png'
+    img: 'assets/images/lionfish.png'
 },
 {
     name: 'lionfish',
-    img: '../images/lionfish.png'
+    img: 'assets/images/lionfish.png'
 },
 {
     name: 'seal',
-    img: '../images/seal.png'
+    img: 'assets/images/seal.png'
 },
 {
     name: 'seal',
-    img: '../images/seal.png'
+    img: 'assets/images/seal.png'
 },
 {
     name: 'starfish',
-    img: '../images/starfish.png'
+    img: 'assets/images/starfish.png'
 },
 {
     name: 'starfish',
-    img: '../images/starfish.png'
+    img: 'assets/images/starfish.png'
 },
 {
     name: 'jellyfish',
-    img: '../images/jellyfish.png'
+    img: 'assets/images/jellyfish.png'
 },
 {
     name: 'jellyfish',
-    img: '../images/jellyfish.png'
+    img: 'assets/images/jellyfish.png'
 },
 {
     name: 'seahorse',
-    img: '../images/seahorse.png'
+    img: 'assets/images/seahorse.png'
 },
 {
     name: 'seahorse',
-    img: '../images/seahorse.png'
+    img: 'assets/images/seahorse.png'
 },
 {
     name: 'eel',
-    img: '../images/eel.png'
+    img: 'assets/images/eel.png'
 },
 {
     name: 'eel',
-    img: '../images/eel.png'
+    img: 'assets/images/eel.png'
 },
 ];
 const hardcards = [{
     name: 'clown-fish',
-    img: '../images/clown-fish.png'
+    img: 'assets/images/clown-fish.png'
 },
 {
     name: 'clown-fish',
-    img: '../images/clown-fish.png'
+    img: 'assets/images/clown-fish.png'
 },
 {
     name: 'coral',
-    img: '../images/coral.png'
+    img: 'assets/images/coral.png'
 },
 {
     name: 'coral',
-    img: '../images/coral.png'
+    img: 'assets/images/coral.png'
 },
 {
     name: 'dolphin',
-    img: '../images/dolphin.png'
+    img: 'assets/images/dolphin.png'
 },
 {
     name: 'dolphin',
-    img: '../images/dolphin.png'
+    img: 'assets/images/dolphin.png'
 },
 {
     name: 'shark',
-    img: '../images/shark.png'
+    img: 'assets/images/shark.png'
 },
 {
     name: 'shark',
-    img: '../images/shark.png'
+    img: 'assets/images/shark.png'
 },
 {
     name: 'stingrays',
-    img: '../images/stingrays.png'
+    img: 'assets/images/stingrays.png'
 },
 {
     name: 'stingrays',
-    img: '../images/stingrays.png'
+    img: 'assets/images/stingrays.png'
 },
 {
     name: 'turtle',
-    img: '../images/turtle.png'
+    img: 'assets/images/turtle.png'
 },
 {
     name: 'turtle',
-    img: '../images/turtle.png'
+    img: 'assets/images/turtle.png'
 },
 {
     name: 'lionfish',
-    img: '../images/lionfish.png'
+    img: 'assets/images/lionfish.png'
 },
 {
     name: 'lionfish',
-    img: '../images/lionfish.png'
+    img: 'assets/images/lionfish.png'
 },
 {
     name: 'seal',
-    img: '../images/seal.png'
+    img: 'assets/images/seal.png'
 },
 {
     name: 'seal',
-    img: '../images/seal.png'
+    img: 'assets/images/seal.png'
 },
 {
     name: 'starfish',
-    img: '../images/starfish.png'
+    img: 'assets/images/starfish.png'
 },
 {
     name: 'starfish',
-    img: '../images/starfish.png'
+    img: 'assets/images/starfish.png'
 },
 {
     name: 'jellyfish',
-    img: '../images/jellyfish.png'
+    img: 'assets/images/jellyfish.png'
 },
 {
     name: 'jellyfish',
-    img: '../images/jellyfish.png'
+    img: 'assets/images/jellyfish.png'
 },
 {
     name: 'urchin',
-    img: '../images/urchin.png'
+    img: 'assets/images/urchin.png'
 },
 {
     name: 'urchin',
-    img: '../images/urchin.png'
+    img: 'assets/images/urchin.png'
 },
 {
     name: 'seahorse',
-    img: '../images/seahorse.png'
+    img: 'assets/images/seahorse.png'
 },
 {
     name: 'seahorse',
-    img: '../images/seahorse.png'
+    img: 'assets/images/seahorse.png'
 },
 {
     name: 'eel',
-    img: '../images/eel.png'
+    img: 'assets/images/eel.png'
 },
 {
     name: 'eel',
-    img: '../images/eel.png'
+    img: 'assets/images/eel.png'
 },
 {
     name: 'octopus',
-    img: '../images/octopus.png'
+    img: 'assets/images/octopus.png'
 },
 {
     name: 'octopus',
-    img: '../images/octopus.png'
+    img: 'assets/images/octopus.png'
 },
 {
     name: 'manatee',
-    img: '../images/assets/images/manatee.png'
+    img: 'assets/images/assets/images/manatee.png'
 },
 {
     name: 'manatee',
-    img: '../images/manatee.png'
+    img: 'assets/images/manatee.png'
 },
 ];
