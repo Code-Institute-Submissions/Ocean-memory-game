@@ -14,13 +14,7 @@ class AudioController {
     stopMusic() {
         this.bgMusic.pause();
     }
-    flip() {
-        this.flipSound.play();
-    }
-    winning() {
-        this.stopMusic();
-        this.winningSound.play();
-    }
+    
 }
 function muteIcon() {
     if (document.getElementById("muteId").classList.contains('fa-volume-mute')) {
@@ -94,7 +88,7 @@ function muteIcon() {
         cardsChosenId = [];
         resultDisplay.textContent = cardsWon.length;
         if (cardsWon.length === cardArray.length / 2) {
-            resultDisplay.textContent = " You found them all!";
+            resultDisplay.textContent = " You Won!";
         }
     }
 
@@ -136,6 +130,13 @@ function muteIcon() {
         if (event.target == modal) {
             modal.style.display = "none";
     }
+    let muteButton = document.getElementById('muteButton').addEventListener("click", () => {
+        if (document.getElementById("muteId").classList.contains('fa-volume-up')) {
+            game.unmute();
+        } else {
+            game.mute();
+        }
+    });
     
     };
 });
