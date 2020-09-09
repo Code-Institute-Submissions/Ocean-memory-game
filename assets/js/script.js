@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
 class AudioController {
     constructor() {
         this.bgMusic = Audio('assets/audio/background-audio.mp3');
-        this.flipSound = Audio('assets/audio-card-flip.mp3');
-        this.winningSound = Audio('assets/audio/winning.mp3');
     }
     startMusic() {
         this.bgMusic.play();
