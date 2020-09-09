@@ -30,7 +30,7 @@ img:hover {
 body {
   height: 100vh;
   display: flex;
-  background: url(/assets/images/underwater1.png);
+  background: url(assets/images/underwater1.png);
   /*background: rgb(8, 186, 218);*/
 }
 
