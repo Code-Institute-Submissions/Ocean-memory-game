@@ -284,7 +284,7 @@ const hardcards = [{
 },
 {
     name: 'manatee',
-    img: 'assets/images/assets/images/manatee.png'
+    img: 'assets/images/manatee.png'
 },
 {
     name: 'manatee',
