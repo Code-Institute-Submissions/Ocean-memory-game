@@ -25,6 +25,10 @@ class AudioController {
    
 }
 
+function play() {
+    this.audioController.playMusic();
+}
+
 function muteIcon() {
     if (document.getElementById("muteId").classList.contains('fa-volume-mute')) {
         document.getElementById("muteId").classList.toggle('fa-volume-up');
@@ -141,20 +145,20 @@ function muteIcon() {
             modal.style.display = "none";
     }
     
-    /* let muteButton = document.getElementById('muteButton').addEventListener("click", () => {
+     let muteButton = document.getElementById('muteButton').addEventListener("click", () => {
         if (document.getElementById("muteId").classList.contains('fa-volume-up')) {
             game.mute();
         } else {
             game.unmute();
         }
     });
-     mute() {
+    function mute() {
         this.audioController.stopMusic();
     }
 
-     unmute() {
+    function unmute() {
         this.audioController.startMusic();
-    }*/
+    }
      
     };
 });

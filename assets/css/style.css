@@ -107,6 +107,16 @@ h3 {
   padding: 30px 15px 30px 15px;
 }
 
+.sound-button {
+  position:fixed;
+  bottom:10%;
+  right:10%;
+  color: rgba(0, 0, 0, .5);
+  text-align:center;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  cursor: pointer;
+}
 
 .footer {
   color: white;
