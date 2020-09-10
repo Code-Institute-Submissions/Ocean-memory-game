@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 class AudioController {
     constructor() {
-        this.bgMusic = Audio('assets/audio/background-audio.mp3');
+        this.bgMusic = Audio('../audio/background-audio.mp3');
+        this.bgMusic.volume = 0.8;
+        this.bgMusic.loop = true; // so that if player is between levels the audio does not stop
     }
     startMusic() {
         this.bgMusic.play();
@@ -12,13 +14,15 @@ class AudioController {
     stopMusic() {
         this.bgMusic.pause();
     }
-    
+        
 }
 function muteIcon() {
     if (document.getElementById("muteId").classList.contains('fa-volume-mute')) {
         document.getElementById("muteId").classList.toggle('fa-volume-up');
     }
 }
+
+
     
     const gameDifficulty = {
         easy: easycards,
@@ -128,12 +132,19 @@ function muteIcon() {
         if (event.target == modal) {
             modal.style.display = "none";
     }
+
     let muteButton = document.getElementById('muteButton').addEventListener("click", () => {
         if (document.getElementById("muteId").classList.contains('fa-volume-up')) {
             game.unmute();
         } else {
             game.mute();
         }
+        mute() 
+            audioController.stopMusic();
+        
+       unmute() 
+            audioController.startMusic();
+        
     });
     
     };
