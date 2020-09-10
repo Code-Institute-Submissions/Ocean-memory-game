@@ -1,10 +1,14 @@
+//While coding this I followed a tutorial to achieve basic game functionality, then built my own features on top of that code, see credits in ReadME
+
 document.addEventListener("DOMContentLoaded", () => {
-     
+
     /* Sound Control */
 
 class AudioController {
     constructor() {
-        this.bgMusic = Audio('../audio/background-audio.mp3');
+        this.bgMusic = new Audio('assets/audio/background-audio.mp3');
+        this.flipSound = new Audio('assets/audio/card-flip.mp3');
+        this.flipSound.volume = 0.3;
         this.bgMusic.volume = 0.8;
         this.bgMusic.loop = true; // so that if player is between levels the audio does not stop
     }
@@ -14,15 +18,19 @@ class AudioController {
     stopMusic() {
         this.bgMusic.pause();
     }
-        
+
+    flip() {
+        this.flipSound.play();
+    }
+   
 }
+
 function muteIcon() {
     if (document.getElementById("muteId").classList.contains('fa-volume-mute')) {
         document.getElementById("muteId").classList.toggle('fa-volume-up');
     }
 }
-
-
+   
     
     const gameDifficulty = {
         easy: easycards,
@@ -132,20 +140,21 @@ function muteIcon() {
         if (event.target == modal) {
             modal.style.display = "none";
     }
-
-    let muteButton = document.getElementById('muteButton').addEventListener("click", () => {
-        if (document.getElementById("muteId").classList.contains('fa-volume-up')) {
-            game.unmute();
-        } else {
-            game.mute();
-        }
-        mute() 
-            audioController.stopMusic();
-        
-       unmute() 
-            audioController.startMusic();
-        
-    });
     
+    /* let muteButton = document.getElementById('muteButton').addEventListener("click", () => {
+        if (document.getElementById("muteId").classList.contains('fa-volume-up')) {
+            game.mute();
+        } else {
+            game.unmute();
+        }
+    });
+     mute() {
+        this.audioController.stopMusic();
+    }
+
+     unmute() {
+        this.audioController.startMusic();
+    }*/
+     
     };
 });

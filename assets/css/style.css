@@ -31,6 +31,9 @@ body {
   height: 100vh;
   display: flex;
   background: url(../images/underwater1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   /*background: rgb(8, 186, 218);*/
 }
 
@@ -69,7 +72,7 @@ h3 {
   padding: 20px;
   border: 1px solid #888;
   width: 45%;
-  height: 40%;
+  height: 45%;
   text-align: center;
 }
 
@@ -104,16 +107,7 @@ h3 {
   padding: 30px 15px 30px 15px;
 }
 
-.sound-button {
-  position:fixed;
-  bottom:10%;
-  right:10%;
-  color: rgba(0, 0, 0, .5);
-  text-align:center;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-  z-index: 99;
-  cursor: pointer;
-}
+
 .footer {
   color: white;
   margin-top: 600px;
