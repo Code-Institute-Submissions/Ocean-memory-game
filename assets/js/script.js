@@ -6,11 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 class AudioController {
     constructor() {
-        this.bgMusic = new Audio('assets/audio/background-audio.mp3');
+        this.bgMusic = new Audio('assets/audio/bgmusic.mp3');
         this.flipSound = new Audio('assets/audio/card-flip.mp3');
         this.flipSound.volume = 0.3;
         this.bgMusic.volume = 0.8;
         this.bgMusic.loop = true; // so that if player is between levels the audio does not stop
+        /*this.audioController.startMusic();*/
     }
     startMusic() {
         this.bgMusic.play();
@@ -27,6 +28,7 @@ class AudioController {
 
 function play() {
     this.audioController.playMusic();
+   
 }
 
 function muteIcon() {
@@ -158,6 +160,7 @@ function muteIcon() {
 
     function unmute() {
         this.audioController.startMusic();
+         
     }
      
     };
