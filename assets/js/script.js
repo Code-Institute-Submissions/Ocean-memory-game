@@ -1,5 +1,4 @@
 //While coding this I followed a tutorial to achieve basic game functionality, then built my own features on top of that code, see credits in ReadME
-
 /* Sound Control */
 class AudioController {
     constructor() {
@@ -8,7 +7,6 @@ class AudioController {
         this.flipSound.volume = 0.3;
         this.bgMusic.volume = 0.2;
         this.bgMusic.loop = true; // so that if player is between levels the audio does not stop
-        
     }
     startMusic() {
         this.bgMusic.play();
@@ -114,11 +112,9 @@ document.addEventListener("DOMContentLoaded", () => {
         let mute_btn = document.getElementById("muteId");
         console.log("clicked sound button");
         if (mute_btn.classList.contains('fa-volume-up')) {
-            console.log("found fa-volume-up, going to mute");
-            audioController.stopMusic();
-        } else {
-            console.log("found fa-volume-up, going to play that music");
             audioController.startMusic();
+        } else {
+           audioController.stopMusic();
         }
         mute_btn.classList.toggle('fa-volume-up');
         mute_btn.classList.toggle('fa-volume-mute');

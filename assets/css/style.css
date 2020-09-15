@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 
+.full-width {
+  width: 100%;
+  text-align: center;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -9,10 +14,14 @@
   padding: 30px;
   border-width: 30px;
   border-radius: 20px;
+  justify-content: space-evenly;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 img {
-
   width: 100px;
   height: 100px;
   border-style: solid;
@@ -27,28 +36,38 @@ img:hover {
   border-radius: 10px;
 }
 
-body {
+html {
   height: 100vh;
   display: flex;
   background: url(../images/underwater1.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /*background: rgb(8, 186, 218);*/
+}
+
+body {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 h2 {
   font-family: 'Oleo Script', cursive;
-    font-size: 35px;
-    text-align: center;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 15px;
 }
+
 h3 {
   font-family: 'Oleo Script', cursive;
-    font-size: 1.8em;
-    text-align: center;
- 
-  
-}/* The Modal (background) */
+  font-size: 1.8em;
+  text-align: center;
+  color: rgb(5, 5, 5);
+  margin-top: 30px;
+}
+
+/* The Modal (background) */
 .modal {
   display: flex;
   position: fixed;
@@ -62,7 +81,6 @@ h3 {
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
-  
 }
 
 /* Modal Content/Box */
@@ -75,12 +93,15 @@ h3 {
   height: 45%;
   text-align: center;
   overflow: auto;
-  position: fixed;
+}
+
+.modal-text-small {
+  margin-top: 10px;
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -92,17 +113,18 @@ h3 {
   text-decoration: none;
   cursor: pointer;
 }
+
 /*------Buttons  ------*/
 #myBtn {
   margin-top: 30px;
   margin-left: 30px;
   width: 80px;
-  padding: 30px 15px 30px 15px;
+  padding: 30px 15px 15px 15px;
 }
 
-#easy, #medium,
-#hard {
-  display: flex;
+#easy,
+#medium,
+#hard  {
   margin-top: 30px;
   margin-left: 30px;
   width: 80px;
@@ -110,11 +132,9 @@ h3 {
 }
 
 .sound-button {
-  position:fixed;
-  bottom:10%;
-  right:10%;
-  color: rgb(205, 228, 223);
-  text-align:center;
+  margin-top: 30px;
+  color: black;
+  text-align: center;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   z-index: 99;
   cursor: pointer;
@@ -122,6 +142,27 @@ h3 {
 
 .footer {
   color: white;
-  margin-top: 600px;
   
+  margin-bottom:150px;
+}
+
+/*  phones */
+@media screen and (max-width: 600px) {
+  .grid-wrap {
+    display: flex;
+    margin: 10px;
+    width: auto;
+  }
+
+  .grid {
+    width: calc(100vw - 50px);
+    margin: auto 10px;
+    padding: 15px;
+    
+  }
+
+  img {
+    width: calc(33% - 30px);
+    height: auto;
+  }
 }
