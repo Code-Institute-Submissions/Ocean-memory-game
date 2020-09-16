@@ -122,10 +122,13 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 ### Wireframes
 - These wireframes were created using [Balsamiq](https://balsamiq.com/) in the Scope Plane and planning process for this project.
 
-- [how to play]
+- [How to play modal]
 <p align="center">
 <img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/wireframe/how-to-play.PNG" alt="how to play"</p>
 
+- [Game Board-hard level]
+<p align="center">
+<img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/wireframe/game-board-hard.PNG alt="Game board- hard"</p>
 
 ## Features
 
@@ -160,4 +163,98 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
     - Easy - 3 cards deep, 6 cards in length.
     - Medium - 4 cards deep and 6 cards in length.
     - Hards - 5 cards deep and 6 cards in length.
+
+6. **Footer**
+    - A small copyright displays below the game board.
+
+### Features to Implement
+
+1. **Additional Card decks**
+    - Possibly 2 additional cards decks can be added, different themes possibly Dinosaurs and Wild life.
+
+2. **Sound of animals**
+    - My daughter wanted the sounds that the animals make when you match a particular pair.
+
+## Technologies Used
+
+- The project uses HTML, CSS and Javascript programming languages.
+- [VSC](https://code.visualstudio.com/)
+    - Developer used **VSC** while building the website.
+- [Google fonts](https://fonts.google.com/)
+    - The project uses google fonts to sytle the project fonts.
+- [GitHub](https://github.com/)
+    - The project uses **GitHub** to store and share all code remotely.
+
+## Testing
+
+Testing was done from the early stages as I had my daughter who is 6 play the game. She found a few errors which were fixed along the way. Upon compltion of the 3 levels I got my whole family to play and there was only one error found and fixed.
+I then sent the link out to friends around the globe to try. The counter error was picked up and rectified.
+I found that this game needs to be played in landscape mode for a better user experience if played on mobile. ipads and pc the user enjoys a bigger screen. 
+
+## Deployment
+
+This project was developed using the [VSC](https://code.visualstudio.com/), committed to git and pushed to GitHub using [Git Bash](https://gitforwindows.org/).
+
+To deploy The Ocean Memory Game to GitHub Pages from its [GitHub repository](https://github.com/Lee-AnnC/Ocean-memory-game), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select **Lee-AnnC
+/Ocean-memory-game**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, PicFlip! is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+The Master Branch has always been the branch deployed to GitHUb Pages.  
+
+### How to run this project locally
+
+To clone this project from GitHub:
+1. Follow this link to the [Ocean-memory-game GitHub repository](https://github.com/Lee-AnnC/Ocean-memory-game).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+
+## Credits
+
+### Content
+
+- All text in this project was written by the developer.
+
+## Media
+
+#### Images
+
+[Orca](https://en.wikipedia.org/wiki/Cetacea)
+[Clown-Fish](https://wallpaperset.com/sea-life-wallpaper)
+[Coral](https://www.diariohispaniola.com/noticia/55528/mundo-verde/bayahibe-10k-estara-dedicada-a-la-conservacion-de-los-arrecifes-de-coral.html)
+[Dolphin]
+[Eel](https://animals.howstuffworks.com/marine-life/eels-slippery.htm)
+[Jellyfish](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
+[Lionfish](https://za.pinterest.com/pin/562879653408495098/)
+[Manatee](https://www.businessinsider.com/manatees-photos-facts-awareness-month-2019-10?r=US&IR=T#after-giving-birth-mother-manatees-will-stay-with-their-calves-throughout-their-nursing-period-which-lasts-up-to-two-years-5)
+[Octopus](https://www.theguardian.com/environment/2019/may/12/octopus-farming-unethical-and-threat-to-food-chain)
+[Seahorse](https://za.pinterest.com/gerim39/sea-houses/)
+[Seal](https://news.ucsc.edu/2018/02/marine-animals.html)
+[Sharks](https://hdwallpapers.cat/shark-fish-ocean-coral-animals-9T0m)
+[Starfish](https://www.noozhawk.com/article/outdoors_qa_residential_varmint_trapping)
+[Stingrays](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
+[Turtle](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
+[Underwater1](https://www.projectaware.org/news?language=en&field_news_type_target_id_1=21&page=1)
+[Urchin](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
+
+
+
+
+
+
+The content was coded by myself with basic help and guidance in javascript that was obtained by watching a tutorial given by [Ania Kubow](https://www.youtube.com/watch?v=tjyDOHzKN0w). 
+
+
 

@@ -2,7 +2,7 @@
 /* Sound Control */
 class AudioController {
     constructor() {
-        this.bgMusic = new Audio('assets/audio/bgmusic.mp3');
+        this.bgMusic = document.getElementById('bgMusic');
         this.bgMusic.volume = 0.2;
         this.bgMusic.loop = true; // so that if player is between levels the audio does not stop
     }
