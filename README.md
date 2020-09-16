@@ -122,7 +122,9 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 ### Wireframes
 - These wireframes were created using [Balsamiq](https://balsamiq.com/) in the Scope Plane and planning process for this project.
 
-- [how to play]<img src="assets/wireframe/how-to-play.PNG" alt="how to play" title="Ocean Wireframe" width="150" height="300">
+- [how to play]
+<p align="center">
+<img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/wireframe/how-to-play.PNG" alt="how to play"</p>
 
 
 ## Features
