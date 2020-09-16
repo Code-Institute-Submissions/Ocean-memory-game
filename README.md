@@ -184,6 +184,7 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
     - The project uses google fonts to sytle the project fonts.
 - [GitHub](https://github.com/)
     - The project uses **GitHub** to store and share all code remotely.
+- [Favicon](https://favicon.io/favicon-generator/)
 
 ## Testing
 
@@ -236,18 +237,18 @@ git clone https://github.com/USERNAME/REPOSITORY
 [Coral](https://www.diariohispaniola.com/noticia/55528/mundo-verde/bayahibe-10k-estara-dedicada-a-la-conservacion-de-los-arrecifes-de-coral.html),
 [Dolphin]
 [Eel](https://animals.howstuffworks.com/marine-life/eels-slippery.htm),
-[Jellyfish](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
-[Lionfish](https://za.pinterest.com/pin/562879653408495098/)
-[Manatee](https://www.businessinsider.com/manatees-photos-facts-awareness-month-2019-10?r=US&IR=T#after-giving-birth-mother-manatees-will-stay-with-their-calves-throughout-their-nursing-period-which-lasts-up-to-two-years-5)
-[Octopus](https://www.theguardian.com/environment/2019/may/12/octopus-farming-unethical-and-threat-to-food-chain)
-[Seahorse](https://za.pinterest.com/gerim39/sea-houses/)
-[Seal](https://news.ucsc.edu/2018/02/marine-animals.html)
-[Sharks](https://hdwallpapers.cat/shark-fish-ocean-coral-animals-9T0m)
-[Starfish](https://www.noozhawk.com/article/outdoors_qa_residential_varmint_trapping)
-[Stingrays](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
-[Turtle](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
-[Underwater1](https://www.projectaware.org/news?language=en&field_news_type_target_id_1=21&page=1)
-[Urchin](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
+[Jellyfish](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/),
+[Lionfish](https://za.pinterest.com/pin/562879653408495098/),
+[Manatee](https://www.businessinsider.com/manatees-photos-facts-awareness-month-2019-10?r=US&IR=T#after-giving-birth-mother-manatees-will-stay-with-their-calves-throughout-their-nursing-period-which-lasts-up-to-two-years-5),
+[Octopus](https://www.theguardian.com/environment/2019/may/12/octopus-farming-unethical-and-threat-to-food-chain),
+[Seahorse](https://za.pinterest.com/gerim39/sea-houses/),
+[Seal](https://news.ucsc.edu/2018/02/marine-animals.html),
+[Sharks](https://hdwallpapers.cat/shark-fish-ocean-coral-animals-9T0m),
+[Starfish](https://www.noozhawk.com),
+[Stingrays](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/),
+[Turtle](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/),
+[Underwater1](https://www.projectaware.org/news),
+[Urchin](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/),
 
 
 

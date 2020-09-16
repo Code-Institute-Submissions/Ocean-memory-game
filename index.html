@@ -1,57 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Memory Game</title>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-    <meta name="description" content="Ocean Memory Game">
-    <!-- style sheets -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="assets/js/cards.js"></script>
-    <script src="assets/js/script.js"></script>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+  <meta name="description" content="Ocean Memory Game">
+
+  <!-- favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- style sheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="assets/js/cards.js"></script>
+  <script src="assets/js/script.js"></script>
 </head>
+
 <body>
-<div class="full-width">
-  <div class="game-score">
-    <div class="sound-button" id="muteButton"><i id="muteId" class="fas fa-volume-up"></i></div>
-    <h3>Matched Cards:<span id="result"></span></h3>
-</div>
+  <div class="full-width">
+    <div class="game-score">
+      <div class="sound-button" id="muteButton"><i id="muteId" class="fas fa-volume-up"></i></div>
+      <h3>Matched Cards:<span id="result"></span></h3>
+    </div>
     <!-- Trigger/Open The Modal -->
     <button id="easy" value="easy" style=background-color:green>Easy</button>
     <button id="medium" value="medium" style=background-color:yellow>Medium</button>
     <button id="hard" value="hard" style=background-color:red>Hard</button>
     <button id="myBtn" style=background-color:purple>How To Play!</button>
-</div>
+  </div>
 
-<div class="full-width grid-wrap">
+  <div class="full-width grid-wrap">
     <div class="grid">
     </div>
-</div>
-<div class="full-width">
+  </div>
+  <div class="full-width">
     <div class="footer">
-        <p>Copyright 2020 Lee-Ann Clark</p>
+      <p>Copyright 2020 Lee-Ann Clark</p>
     </div>
-</div>
-<!-- The Modal -->
-<div id="myModal" class="modal">
+  </div>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
     <!-- Modal content -->
     <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Welcome to The Ocean.</h2>
-        <p> The aim of this game is to test your memory.<br>
-            Click on 2 cards. If they match they will dissapear.<br>
-            If not they will turn back over.<br>
-            Match all the cards until there are none left.<br>
-            Choose your difficulty level-Easy, Medium or Hard.<br>
+      <span class="close">&times;</span>
+      <h2>Welcome to The Ocean.</h2>
+      <p> The aim of this game is to test your memory.<br>
+        Click on 2 cards. If they match they will dissapear.<br>
+        If not they will turn back over.<br>
+        Match all the cards until there are none left.<br>
+        Choose your difficulty level-Easy, Medium or Hard.<br>
         Use <strong>landscape mode</strong> when playing on a mobile phone.</p>
-        <h3>Have Fun!</h3>
+      <h3>Have Fun!</h3>
     </div>
-</div>
+  </div>
 
-<!-- AUDIO FILES -->
-<audio id="bgMusic" src="assets/audio/bgMusic.mp3"></audio>
+  <!-- AUDIO FILES -->
+  <audio id="bgMusic" src="assets/audio/bgMusic.mp3"></audio>
 </body>
+
 </html>
