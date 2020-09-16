@@ -120,7 +120,9 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 - To add to the feeling of the game a background sound was added with the option to mute if it gets annoying.
 
 ### Wireframes
+- These wireframes were created using [Balsamiq](https://balsamiq.com/) in the Scope Plane and planning process for this project.
 
+-[Ocean-memory-game](<img src="assets/wireframe/index.png" alt="wireframe-index" title="Index Wireframe" width="150" height="300">)
 
 
 ## Features
@@ -130,6 +132,7 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 1. **How To Play modal**
     - When you arrive on the page you are greeted with a board of cards with colored buttons down the left side.
     - the "How to Play" button opens a modal which explains to the user the goals of the game.
+    -  Rotate to landscape when playing on any mobile device for better user enjoyment.
     - the modal can be colsed by the x in the top right corner , or by clicking anywhere on the screen.
 
 2. **Difficulty selection buttons**
@@ -141,9 +144,9 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 
 3. **Mute button**
     - The mute button turns off all sound in the game.
-    - It is represented by a white speaker in the right lower corner of the page.
-    - when there is sound you will see the speaker with lines next to it.
-    - when the sound is turned off there is an X next to the speaker.
+    - It is represented by a speaker above the game board.
+    - when there is no sound you will see the speaker with lines next to it.
+    - when the sound is turned on there is an X next to the speaker.
 
 4. **Matched Cards counter**
     - To win the board you need to match all the cards.
