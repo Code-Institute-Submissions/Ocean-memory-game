@@ -191,9 +191,21 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 - [GitHub](https://github.com/)
     - The project uses **GitHub** to store and share all code remotely.
 - [Favicon](https://favicon.io/favicon-generator/)
+- [Coolors.co](https://coolors.co/ffffff-674f83-d19c1d-1496bb-993366)
 
 ## Testing
 
+**Validation Testing**
+The HTML, CSS, and JavaScript files were run through the following validators to ensure no syntax errors were present:
+- [JavaScript](https://jshint.com/)
+- [HTML](https://validator.w3.org/)
+- [CSS](https://jigsaw.w3.org/css-validator/)
+
+**Browser and Accessibility Testing**
+- [Web.dev](https://web.dev/)
+- [My Report]()
+
+**User Testing**
 Testing was done from the early stages as I had my daughter who is 6 play the game. She found a few errors which were fixed along the way. Upon compltion of the 3 levels I got my whole family to play and there was only one error found and fixed.
 I then sent the link out to friends around the globe to try. The counter error was picked up and rectified.
 I found that this game needs to be played in landscape mode for a better user experience if played on mobile. ipads and pc the user enjoys a bigger screen. 

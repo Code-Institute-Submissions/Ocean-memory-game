@@ -1,35 +1,35 @@
 //card options
 const easycards = [{
     name: "clown-fish",
-    img: "assets/images/clown-fish.png",
+    img: "assets/images/clown-fish.png", 
 },
 {
     name: "clown-fish",
-    img: "assets/images/clown-fish.png",
+    img: "assets/images/clown-fish.png", 
 },
 {
     name: "coral",
-    img: "assets/images/coral.png",
+    img: "assets/images/coral.png", 
 },
 {
     name: "coral",
-    img: "assets/images/coral.png",
+    img: "assets/images/coral.png", 
 },
 {
     name: "dolphin",
-    img: "assets/images/dolphin.png",
+    img: "assets/images/dolphin.png", 
 },
 {
     name: "dolphin",
-    img: "assets/images/dolphin.png",
+    img: "assets/images/dolphin.png", 
 },
 {
     name: "shark",
-    img: "assets/images/shark.png",
+    img: "assets/images/shark.png", 
 },
 {
     name: "shark",
-    img: "assets/images/shark.png",
+    img: "assets/images/shark.png", 
 },
 {
     name: "stingrays",

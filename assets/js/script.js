@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
             card.setAttribute("data-id", i);
             card.addEventListener("click", flipCard);
             grid.appendChild(card);
+            card.setAttribute("alt", "card");
         }
     }
     //check for matches
