@@ -104,8 +104,10 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 
 **The Colors**
 
-- The colors used were those found in the ocean, soft and easy on the eye. 
-- The colors for the buttond were chosen with the traffic light in mind. 
+- The colors used were those found in the ocean, soft and easy on the eye. Colors of the ocean.
+<p align="center">
+<a href="https://coolors.co/e574bc-ea84c9-ef94d5-f9b4ed-eabaf6-dabfff-c4c7ff-adcfff-96d7ff-7fdeff" alt="pastles of the ocean">
+- The colors for the buttons were chosen with the traffic light in mind. 
 - Green is for go - easy, yellow - is caution - medium and red is stop -hard.
 
 **The Background**
