@@ -128,7 +128,7 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 
 - [Game Board-hard level]
 <p align="center">
-<img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/wireframe/game-board-hard.PNG alt="Game board- hard"</p>
+<img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/wireframe/game-board-hard.PNG" alt="Game board- hard"</p>
 
 ## Features
 
