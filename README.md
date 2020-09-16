@@ -87,9 +87,9 @@ The Ocean memory game is a wonderful way to meet these needs by:
 #### User Stories
 
 As a child aged 6 years and up I want:
-1.To be able to easily understand the buttons of the game.
-2.The ability to choos a level that I am confortable with.
-3.Visual images that I recognise and can name or learn the name of.
+1. To be able to easily understand the buttons of the game.
+2. The ability to choos a level that I am confortable with.
+3. Visual images that I recognise and can name or learn the name of.
 4. The ability to move between levels as I play.
 
 As the adult player, I want:
@@ -104,9 +104,13 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 
 **The Colors**
 
-- The colors used were those found in the ocean, soft and easy on the eye. Colors of the ocean.
+- The colors used were those found in the ocean, soft and easy on the eye. 
 <p align="center">
-<a href="https://coolors.co/e574bc-ea84c9-ef94d5-f9b4ed-eabaf6-dabfff-c4c7ff-adcfff-96d7ff-7fdeff" alt="pastels of the ocean"></a>
+<img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/images/ocean%20blues.PNG" alt="Ocean Blues"</p>
+
+<p align="center">
+<img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/images/ocean%20pastels.PNG" alt="Ocean Pastels"</p>
+
 - The colors for the buttons were chosen with the traffic light in mind. 
 - Green is for go - easy, yellow - is caution - medium and red is stop -hard.
 
