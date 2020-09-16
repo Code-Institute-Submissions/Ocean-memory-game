@@ -3,8 +3,6 @@
 class AudioController {
     constructor() {
         this.bgMusic = new Audio('assets/audio/bgmusic.mp3');
-        this.flipSound = new Audio('assets/audio/card-flip.mp3');
-        this.flipSound.volume = 0.3;
         this.bgMusic.volume = 0.2;
         this.bgMusic.loop = true; // so that if player is between levels the audio does not stop
     }
@@ -14,9 +12,7 @@ class AudioController {
     stopMusic() {
         this.bgMusic.pause();
     }
-    flip() {
-        this.flipSound.play();
-    }
+    
 }
 document.addEventListener("DOMContentLoaded", () => {
     let audioController = new AudioController();
@@ -45,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const resultDisplay = document.querySelector("#result");
     var cardsChosen = [];
     var cardsChosenId = [];
-    const cardsWon = [];
+    let cardsWon = [];
     //create your board
     function createBoard() {
         grid.innerHTML = "";
@@ -80,7 +76,9 @@ document.addEventListener("DOMContentLoaded", () => {
         resultDisplay.textContent = cardsWon.length;
         if (cardsWon.length === cardArray.length / 2) {
             resultDisplay.textContent = " You Won!";
+            cardsWon = [];
         }
+        
     }
     //flip your card
     function flipCard() {
@@ -110,7 +108,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // volume button
     document.getElementById('muteButton').addEventListener("click", () => {
         let mute_btn = document.getElementById("muteId");
-        console.log("clicked sound button");
         if (mute_btn.classList.contains('fa-volume-up')) {
             audioController.startMusic();
         } else {
