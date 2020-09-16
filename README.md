@@ -250,12 +250,23 @@ git clone https://github.com/USERNAME/REPOSITORY
 [Underwater1](https://www.projectaware.org/news),
 [Urchin](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/),
 
+#### Audio
 
+### Code
+- The content was coded by myself with basic help and guidance in javascript that was obtained by watching a tutorial given by [Ania Kubow](https://www.youtube.com/watch?v=tjyDOHzKN0w). 
+- [w3schools](https://www.w3schools.com/) for the validator for both css and HTML. 
+- [stackoverflow](https://stackoverflow.com/) in helping find answers to things i wasnt quite understanding.
 
+### Acknowledgements
 
+Special thanks to:
+- Code Institute Aaron Sinnott for his time and patience in explaining code that i was not understanding.
+- Lead Malia Havlicek whom without you i would have lost my sanity. Your patience with all my questioning and guidance was instrumental in the completion of this project. 
+- The slack forum who are always willing to answer questions.
+- Ruby (6) and Gladys (73) who tested the game extensivly and helped with the bug finding.
 
-
-The content was coded by myself with basic help and guidance in javascript that was obtained by watching a tutorial given by [Ania Kubow](https://www.youtube.com/watch?v=tjyDOHzKN0w). 
+#### Disclaimer
+The content of this website, including the images used, are for educational purposes only.
 
 
 
