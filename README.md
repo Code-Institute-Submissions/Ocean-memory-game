@@ -231,11 +231,11 @@ git clone https://github.com/USERNAME/REPOSITORY
 
 #### Images
 
-[Orca](https://en.wikipedia.org/wiki/Cetacea)
-[Clown-Fish](https://wallpaperset.com/sea-life-wallpaper)
-[Coral](https://www.diariohispaniola.com/noticia/55528/mundo-verde/bayahibe-10k-estara-dedicada-a-la-conservacion-de-los-arrecifes-de-coral.html)
+[Orca](https://en.wikipedia.org/wiki/Cetacea),
+[Clown-Fish](https://wallpaperset.com/sea-life-wallpaper),
+[Coral](https://www.diariohispaniola.com/noticia/55528/mundo-verde/bayahibe-10k-estara-dedicada-a-la-conservacion-de-los-arrecifes-de-coral.html),
 [Dolphin]
-[Eel](https://animals.howstuffworks.com/marine-life/eels-slippery.htm)
+[Eel](https://animals.howstuffworks.com/marine-life/eels-slippery.htm),
 [Jellyfish](https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/)
 [Lionfish](https://za.pinterest.com/pin/562879653408495098/)
 [Manatee](https://www.businessinsider.com/manatees-photos-facts-awareness-month-2019-10?r=US&IR=T#after-giving-birth-mother-manatees-will-stay-with-their-calves-throughout-their-nursing-period-which-lasts-up-to-two-years-5)
