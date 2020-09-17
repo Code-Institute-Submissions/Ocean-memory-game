@@ -108,9 +108,6 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 <p align="center">
 <img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/images/ocean%20blues.PNG" alt="Ocean Blues"</p>
 
-<p align="center">
-<img src="https://github.com/Lee-AnnC/Ocean-memory-game/blob/master/assets/images/ocean%20pastels.PNG" alt="Ocean Pastels"</p>
-
 - The colors for the buttons were chosen with the traffic light in mind. 
 - Green is for go - easy, yellow - is caution - medium and red is stop -hard.
 
@@ -203,7 +200,7 @@ The HTML, CSS, and JavaScript files were run through the following validators to
 
 **Browser and Accessibility Testing**
 - [Web.dev](https://web.dev/)
-- [My Report]()
+- [My Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flee-annc.github.io%2FOcean-memory-game%2F)
 
 **User Testing**
 Testing was done from the early stages as I had my daughter who is 6 play the game. She found a few errors which were fixed along the way. Upon compltion of the 3 levels I got my whole family to play and there was only one error found and fixed.
