@@ -39,11 +39,11 @@ The features include easy to operate brightly colored buttons and 3 levels of di
 
 ### Project Goals
 
-The primary goal of The Ocean! is to provide a clean, intuitive and fun game for all aged users to play.
+The primary goal of The Ocean! is to provide a clean, intuitive, and fun game for all aged users to play.
 
 #### Player Goals
 
-The general target audience for this game is ages from 6 years upwards.
+The general target audience for this game is aged from 6 years upwards.
 
 Players goals are:
 - A fun game to play.
@@ -51,10 +51,10 @@ Players goals are:
 - Easy to understand.
 - Brightly colored Level difficulty buttons
 - A game for all ages.
-- Easy has 18 cards, medium has 24 cards and hard has 30 cards.
+- Easy has 18 cards, Medium has 24 cards and Hard has 30 cards.
 
 The Ocean Memory Game is a wonderful way for players to meet these needs because:
-- The planning and design took these into account before    building.
+- The planning and design took these into account before building.
 - Input was taken from my 6 year old as to what was fun.
 - Buttons are grouped together for ease and understanding
 - Buttons are brightly colored to show levels, green is go-      easy.
@@ -64,18 +64,18 @@ The Ocean Memory Game is a wonderful way for players to meet these needs because
 
 #### Parent Goals
 
-Parents now days are always looking for something that their child will enjoy, something that is educational and something that is safe. As a parent i listened to what my child would enjoy playing and the memory game was born.
+Parents now days are always looking for something that their child will enjoy, something that is educational and something that is safe. As a parent, I listened to what my child would enjoy playing and the memory game was born.
 
 Parent's Goals :
 - A game that is educational and that your child can interact with.
-- A game that keeps your childs attention.
+- A game that keeps your child's attention.
 - A game that challenges your child.
 - A game that is visually appealing to your child.
 - A mute button ( all parents are saying " thank goodness")
 
 The Ocean memory game is a wonderful way to meet these needs by:
 - Being challenging and interactive.
-- By testing your childs memory 
+- By testing your child's memory 
 - It has been designed so that not only a child but an adult can be entertained.
 - The game has 3 difficulty levels to keep the minds sharp.
 
@@ -88,14 +88,14 @@ The Ocean memory game is a wonderful way to meet these needs by:
 
 As a Child:
 1. As a child aged 6 years and up I want to be able to easily understand the buttons of the game.
-2. As a child aged 6 years and up I want the ability to choose a level that I am confortable with.
-3. As a child aged 6 years and up I want visual images that I recognise and can name or learn the name of.
+2. As a child aged 6 years and up I want the ability to choose a level that I am comfortable with.
+3. As a child aged 6 years and up I want visual images that I recognize and can name or learn the name of.
 4. As a child aged 6 years and up I want the ability to move between levels as I play.
 
 As an Adult player:
-1. As the adult player, I want a visually and appealing game that holds my attention.
-2. As the adult player, I want to be able to play with or compete against my child.
-3. As the adult player, I want to be able to test my own memory.
+1. As an adult player, I want a visually and appealing game that holds my attention.
+2. As an adult player, I want to be able to play with or compete against my child.
+3. As an adult player, I want to be able to test my own memory.
 4. A mute button, so that the sounds can be switched off when they become annoying.
 
 ### Design
@@ -116,7 +116,7 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 
 **The Card Images**
 - These were chosen with children in mind
-- Clear images that children recognise as creatures in the ocean
+- Clear images that children recognize as creatures in the ocean
 - Most images children would have seen before.
 
 **Sound**
@@ -139,9 +139,9 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 
 1. **How To Play modal**
     - When you arrive on the page you are greeted with a board of cards with colored buttons down the left side.
-    - the "How to Play" button opens a modal which explains to the user the goals of the game.
+    - the "How to Play" button opens a modal that explains to the user the goals of the game.
     -  Rotate to landscape when playing on any mobile device for better user enjoyment.
-    - the modal can be colsed by the x in the top right corner , or by clicking anywhere on the screen.
+    - the modal can be closed by the x in the top right corner, or by clicking anywhere on the screen.
 
 2. **Difficulty selection buttons**
     - the level difficulty buttons are color coded.
@@ -151,7 +151,7 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
     - Selecting any of these, gives you a new board with the selection of cards that you chose.
 
 3. **Mute button**
-    - The mute button turns off all sound in the game.
+    - The Mute button turns off all sound in the game.
     - It is represented by a speaker above the game board.
     - when there is no sound you will see the speaker with lines next to it.
     - when the sound is turned on there is an X next to the speaker.
@@ -165,7 +165,7 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
     - the cards are laid out in a grid dependant on the level selected. 
     - Easy - 3 cards deep, 6 cards in length.
     - Medium - 4 cards deep and 6 cards in length.
-    - Hards - 5 cards deep and 6 cards in length.
+    - Hard - 5 cards deep and 6 cards in length.
 
 6. **Footer**
     - A small copyright displays below the game board.
@@ -173,18 +173,18 @@ The overall feel of the game is designed with my daughter in mind. She had a lot
 ### Features to Implement
 
 1. **Additional Card decks**
-    - Possibly 2 additional cards decks can be added, different themes possibly Dinosaurs and Wild life.
+    - Possibly 2 additional card decks can be added, different themes possibly Dinosaurs and Wildlife.
 
 2. **Sound of animals**
     - My daughter wanted the sounds that the animals make when you match a particular pair.
 
 ## Technologies Used
 
-- The project uses HTML, CSS and Javascript programming languages.
+- The project uses HTML, CSS, and Javascript programming languages.
 - [VSC](https://code.visualstudio.com/)
     - Developer used **VSC** while building the website.
 - [Google fonts](https://fonts.google.com/)
-    - The project uses google fonts to sytle the project fonts.
+    - The project uses google fonts to style the project fonts.
 - [GitHub](https://github.com/)
     - The project uses **GitHub** to store and share all code remotely.
 - [Favicon](https://favicon.io/favicon-generator/)
@@ -198,15 +198,16 @@ The HTML, CSS, and JavaScript files were run through the following validators to
 - [HTML](https://validator.w3.org/)
 - [CSS](https://jigsaw.w3.org/css-validator/)
 
+
 **Browser and Accessibility Testing**
 
 - I used [Web.dev](https://web.dev/) to test my project. My report is below with the findings
 - [My Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flee-annc.github.io%2FOcean-memory-game%2F)
 
 **User Testing**
-Testing was done from the early stages as I had my daughter who is 6 play the game. She found a few errors which were fixed along the way. Upon compltion of the 3 levels I got my whole family to play and there was only one error found and fixed.
+Testing was done from the early stages as I had my daughter who is 6 play the game. She found a few errors which were fixed along the way. Upon completion of the 3 levels, I got my whole family to play and there was only one error found and fixed.
 I then sent the link out to friends around the globe to try. The counter error was picked up and rectified.
-I found that this game needs to be played in landscape mode for a better user experience if played on mobile. ipads and pc the user enjoys a bigger screen. 
+I found that this game needs to be played in landscape mode for better user experience if played on mobile. iPad and pc the user enjoys a bigger screen. 
 
 ### Bugs
 
@@ -214,12 +215,12 @@ I found that this game needs to be played in landscape mode for a better user ex
 - The alignment and spacing is a problem in portrait mode
 - There is an error that states "script.js:10 Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first. I have not been able to fix this.
 - My mom found a bug with one manatee card, it was not listed properly. Fixed.
-- My daughter found a problem with the turning over of cards, it is intermittant if clicked to fast one card will remained turned over.
+- My daughter found a problem with the turning over of cards, it is intermittent if clicked to fast one card will remain turned over.
 - There was a problem with the sound playing on my pc but not on the live version. This was eventually fixed.
 
 ## Deployment
 
-This project was developed using the [VSC](https://code.visualstudio.com/), committed to git and pushed to GitHub using [Git Bash](https://gitforwindows.org/).
+This project was developed using the [VSC](https://code.visualstudio.com/), committed to git, and pushed to GitHub using [Git Bash](https://gitforwindows.org/).
 
 To deploy The Ocean Memory Game to GitHub Pages from its [GitHub repository](https://github.com/Lee-AnnC/Ocean-memory-game), the following steps were taken: 
 1. Log into GitHub. 
@@ -227,11 +228,11 @@ To deploy The Ocean Memory Game to GitHub Pages from its [GitHub repository](htt
 /Ocean-memory-game**.
 3. From the menu items near the top of the page, select **Settings**.
 4. Scroll down to the **GitHub Pages** section.
-5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
-6. On selecting Master Branch the page is automatically refreshed, PicFlip! is now deployed. 
+5. Under **Source** click the drop-down menu labeled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, The Ocean is now deployed. 
 7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
-The Master Branch has always been the branch deployed to GitHUb Pages.  
+The Master Branch has always been the branch deployed to GitHub Pages.  
 
 ### How to run this project locally
 
@@ -281,18 +282,15 @@ git clone https://github.com/USERNAME/REPOSITORY
 ### Code
 - The content was coded by myself with basic help and guidance in javascript that was obtained by watching a tutorial given by [Ania Kubow](https://www.youtube.com/watch?v=tjyDOHzKN0w). 
 - [w3schools](https://www.w3schools.com/) for the validator for both css and HTML. 
-- [stackoverflow](https://stackoverflow.com/) in helping find answers to things i wasnt quite understanding.
+- [stackoverflow](https://stackoverflow.com/) in helping find answers to things I wasn't quite understanding.
 
 ### Acknowledgements
 
 Special thanks to:
-- Code Institute Aaron Sinnott for his time and patience in explaining code that i was not understanding.
-- Lead Malia Havlicek whom without you i would have lost my sanity. Your patience with all my questioning and guidance was instrumental in the completion of this project. 
+- Code Institute Aaron Sinnott for his time and patience in explaining code that I was not understanding.
+- Lead Malia Havlicek whom without you I would have lost my sanity. Your patience with all my questioning and guidance was instrumental in the completion of this project. 
 - The slack forum who are always willing to answer questions.
-- Ruby (6) and Gladys (73) who tested the game extensivly and helped with the bug finding.
+- Ruby (6) and Gladys (73) who tested the game extensively and helped with the bug finding.
 
 #### Disclaimer
 The content of this website, including the images used, are for educational purposes only.
-
-
-
