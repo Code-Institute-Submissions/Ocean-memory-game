@@ -84,18 +84,18 @@ The Ocean memory game is a wonderful way to meet these needs by:
 - A well thought out game that cannot be broken by an over excited child starting new levels before finishing and pushing buttons to see what they do.
 - A professional looking project that is the beginning of a javascript chapter in this programmers book.
 
-#### User Stories
+### User Stories
 
-As a child aged 6 years and up I want:
-1. To be able to easily understand the buttons of the game.
-2. The ability to choos a level that I am confortable with.
-3. Visual images that I recognise and can name or learn the name of.
-4. The ability to move between levels as I play.
+As a Child:
+1. As a child aged 6 years and up I want to be able to easily understand the buttons of the game.
+2. As a child aged 6 years and up I want the ability to choose a level that I am confortable with.
+3. As a child aged 6 years and up I want visual images that I recognise and can name or learn the name of.
+4. As a child aged 6 years and up I want the ability to move between levels as I play.
 
-As the adult player, I want:
-1. A visually and appealing game that holds my attention.
-2. To be able to play with or compete against my child.
-3. To be able to test my own memory.
+As an Adult player:
+1. As the adult player, I want a visually and appealing game that holds my attention.
+2. As the adult player, I want to be able to play with or compete against my child.
+3. As the adult player, I want to be able to test my own memory.
 4. A mute button, so that the sounds can be switched off when they become annoying.
 
 ### Design
@@ -199,13 +199,23 @@ The HTML, CSS, and JavaScript files were run through the following validators to
 - [CSS](https://jigsaw.w3.org/css-validator/)
 
 **Browser and Accessibility Testing**
-- [Web.dev](https://web.dev/)
+
+- I used [Web.dev](https://web.dev/) to test my project. My report is below with the findings
 - [My Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flee-annc.github.io%2FOcean-memory-game%2F)
 
 **User Testing**
 Testing was done from the early stages as I had my daughter who is 6 play the game. She found a few errors which were fixed along the way. Upon compltion of the 3 levels I got my whole family to play and there was only one error found and fixed.
 I then sent the link out to friends around the globe to try. The counter error was picked up and rectified.
 I found that this game needs to be played in landscape mode for a better user experience if played on mobile. ipads and pc the user enjoys a bigger screen. 
+
+### Bugs
+
+- As this game is difficult to play on portrait, it is advised for user enjoyability to play on LANDSCAPE when playing on mobile.
+- The alignment and spacing is a problem in portrait mode
+- There is an error that states "script.js:10 Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first. I have not been able to fix this.
+- My mom found a bug with one manatee card, it was not listed properly. Fixed.
+- My daughter found a problem with the turning over of cards, it is intermittant if clicked to fast one card will remained turned over.
+- There was a problem with the sound playing on my pc but not on the live version. This was eventually fixed.
 
 ## Deployment
 
@@ -267,6 +277,7 @@ git clone https://github.com/USERNAME/REPOSITORY
 
 #### Audio
 - The audio file for button click sound was sourced from [Soundimage](https://soundimage.org/looping-music/fantasy-ocean-puzzle-game/)
+
 ### Code
 - The content was coded by myself with basic help and guidance in javascript that was obtained by watching a tutorial given by [Ania Kubow](https://www.youtube.com/watch?v=tjyDOHzKN0w). 
 - [w3schools](https://www.w3schools.com/) for the validator for both css and HTML. 

@@ -1,23 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
-
-.full-width {
-  width: 100%;
-  text-align: center;
-  
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  background: rgb(15, 4, 175);
-  width: 690px;
-  margin-top: 30px;
-  padding: 30px;
-  border-width: 30px;
-  border-radius: 20px;
-  justify-content: space-evenly;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -68,7 +49,25 @@ h3 {
   margin-top: 30px;
 }
 
+.full-width {
+  width: 100%;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(15, 4, 175);
+  width: 690px;
+  margin-top: 30px;
+  padding: 30px;
+  border-width: 30px;
+  border-radius: 20px;
+  justify-content: space-evenly;
+}
+
 /* The Modal (background) */
+
 .modal {
   display: flex;
   position: fixed;
@@ -85,6 +84,7 @@ h3 {
 }
 
 /* Modal Content/Box */
+
 .modal-content {
   background-color: rgb(5, 207, 221);
   margin: 15% auto;
@@ -94,6 +94,7 @@ h3 {
   height: 45%;
   text-align: center;
   overflow: auto;
+  margin-bottom: 0px;
 }
 
 .modal-text-small {
@@ -101,6 +102,7 @@ h3 {
 }
 
 /* The Close Button */
+
 .close {
   color: black;
   float: right;
@@ -116,10 +118,11 @@ h3 {
 }
 
 /*------Buttons  ------*/
+
 #myBtn {
   font-weight: bolder;
   font-size: 15px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 30px;
   width: 80px;
   padding: 30px 15px 0px 15px;
@@ -131,16 +134,18 @@ h3 {
 #easy {
   background-color: green;
 }
+
 #medium {
   background-color: yellow;
 }
+
 #hard {
-  background-color:red;
+  background-color: red;
 }
 
 #easy,
 #medium,
-#hard  {
+#hard {
   font-weight: bolder;
   font-size: 15px;
   margin-top: 30px;
@@ -156,30 +161,26 @@ h3 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   z-index: 99;
   cursor: pointer;
- 
 }
 
 .footer {
   color: white;
-  
-  margin-bottom:150px;
+  margin-bottom: 150px;
 }
 
 /*  phones */
+
 @media screen and (max-width: 600px) {
   .grid-wrap {
     display: flex;
     margin: 10px;
     width: auto;
   }
-
   .grid {
     width: calc(100vw - 50px);
     margin: auto 10px;
     padding: 15px;
-    
   }
-
   img {
     width: calc(33% - 30px);
     height: auto;
